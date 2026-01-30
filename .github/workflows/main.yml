@@ -6,8 +6,10 @@ on:
 
 jobs:
     demo:
-            runs-on: ubuntu-lates 
+    runs-on: ubuntu-latest 
 
     steps:
-    - name: thnk ful 
-        run: echo "i am thnk ful to you brother"
+            - name: thnk ful
+                
+    run: echo "i am thnk ful to you brother"
+ 
