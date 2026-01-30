@@ -2,14 +2,19 @@ name: ashir g
 
 on:
     push:
-         branches: [ main]
-
+       branches: [main]
+   
 jobs:
     demo:
-    runs-on: ubuntu-latest 
+       runs-on: ubuntu-latest
 
-    steps:
-            - name: thnk ful
-                
-    run: echo "i am thnk ful to you brother"
+
+ steps:
+  - name: thnks
+    run: echo "thnk you"
+    
+    
+
+    
+         
  
