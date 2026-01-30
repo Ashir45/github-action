@@ -1,0 +1,14 @@
+name: Ashir G
+
+on:
+  push: 
+    branches: [ main ]
+
+    jobs:
+      demo:
+       runs-on: ubuntu-latest
+
+       steps:
+         - name: thnkful 
+         run: echo "i am thnk ful to you brother"
+    
