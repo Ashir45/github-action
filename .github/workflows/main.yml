@@ -7,12 +7,17 @@ on:
 jobs:
     demo:
        runs-on: ubuntu-latest
+       
+       steps:
+             - name: thnks
+               run: echo "thnk you"
+       
 
 
- steps:
-  - name: thnks
-    run: echo "thnk you"
-    
+       
+       
+      
+      
     
 
     
